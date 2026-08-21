@@ -504,6 +504,24 @@ h3 {
   display: block;
 }
 
+.shot-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.shot-grid .shot-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media (max-width: 720px) {
+  .shot-grid .shot-pair {
+    grid-template-columns: 1fr;
+  }
+}
+
 .caption {
   font-size: 0.85rem;
   color: var(--muted);
