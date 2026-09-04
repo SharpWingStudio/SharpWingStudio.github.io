@@ -528,6 +528,23 @@ h3 {
   margin: 0.4rem 0 0;
 }
 
+.shot-fig {
+  margin: 0;
+}
+
+.shot-fig .shot {
+  margin: 0;
+}
+
+.shot-fig figcaption {
+  font-family: var(--cond);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: var(--cyan);
+  margin: 0.45rem 0 0;
+}
+
 /* Contact */
 
 .mailto {
