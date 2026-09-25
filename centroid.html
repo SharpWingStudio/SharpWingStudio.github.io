@@ -48,11 +48,29 @@
         <h1>Centroid</h1>
         <hr class="rule">
         <p class="lede" style="max-width: 40rem;">A 2013 Xbox Live Indie Game, rebuilt. Thirty levels. Four biomes. Find a gun. Chunk some grubs.</p>
-        <p class="muted" style="max-width: 40rem;">Side-scrolling platformer-shooter. Woods, city night, mountains in the rain, then the crater. Solo or <strong>local split-screen</strong> — same campaign, up to four on the couch.</p>
+        <p class="muted" style="max-width: 40rem;">Side-scrolling platformer-shooter. Woods, city night, mountains in the rain, then the crater. Play it alone, or with up to four on one machine.</p>
       </div>
     </header>
 
     <section class="section" style="padding-top: 0;">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>A short look</h2>
+        </div>
+        <figure class="viewport video-frame">
+          <span class="tick tick-tl"></span>
+          <span class="tick tick-tr"></span>
+          <span class="tick tick-bl"></span>
+          <span class="tick tick-br"></span>
+          <video controls playsinline preload="metadata" poster="img/preview-woods.png">
+            <source src="video/centroid-short.mp4" type="video/mp4">
+          </video>
+          <figcaption class="caption">Title crash, then a few seconds in the woods. Sound stays off until you press play.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section">
       <div class="wrap">
         <div class="section-head">
           <h2>The campaign</h2>
@@ -60,40 +78,80 @@
         <div class="shot-grid">
           <div class="shot-pair">
             <figure class="shot-fig">
-              <img class="shot" src="img/preview-woods.png" alt="Woods: mesh tiles, pine dress, Centroids on the ledges.">
+              <div class="viewport">
+                <span class="tick tick-tl"></span>
+                <span class="tick tick-tr"></span>
+                <span class="tick tick-bl"></span>
+                <span class="tick tick-br"></span>
+                <img class="shot" src="img/preview-woods.png" alt="Woods: lit tiles, painted pines, Centroids on the ledges.">
+              </div>
               <figcaption>Woods</figcaption>
             </figure>
             <figure class="shot-fig">
-              <img class="shot" src="img/preview-city.png" alt="City night: flashlight on the street, lamps and newspaper boxes.">
+              <div class="viewport">
+                <span class="tick tick-tl"></span>
+                <span class="tick tick-tr"></span>
+                <span class="tick tick-bl"></span>
+                <span class="tick tick-br"></span>
+                <img class="shot" src="img/preview-city.png" alt="City night: a weapon flashlight on the street.">
+              </div>
               <figcaption>City night</figcaption>
             </figure>
           </div>
           <div class="shot-pair">
             <figure class="shot-fig">
-              <img class="shot" src="img/preview-mountains.png" alt="Mountains: rain over pines and snow peaks.">
+              <div class="viewport">
+                <span class="tick tick-tl"></span>
+                <span class="tick tick-tr"></span>
+                <span class="tick tick-bl"></span>
+                <span class="tick tick-br"></span>
+                <img class="shot" src="img/preview-mountains.png" alt="Mountains: rain over pines and snow peaks.">
+              </div>
               <figcaption>Mountains</figcaption>
             </figure>
             <figure class="shot-fig">
-              <img class="shot" src="img/preview-crater.png" alt="Crater: dark impact stacks and a long drop.">
+              <div class="viewport">
+                <span class="tick tick-tl"></span>
+                <span class="tick tick-tr"></span>
+                <span class="tick tick-bl"></span>
+                <span class="tick tick-br"></span>
+                <img class="shot" src="img/preview-crater.png" alt="Crater: dark impact stacks and a long drop.">
+              </div>
               <figcaption>Crater</figcaption>
             </figure>
           </div>
         </div>
-        <p class="caption">A peek at each biome. The rest of the thirty stays in the game.</p>
+        <ol class="depth-strip">
+          <li>Near</li>
+          <li>Mid</li>
+          <li>Far</li>
+        </ol>
+        <p class="caption">Four of the thirty. Backgrounds are painted plates in three depths. The rest stays in the game.</p>
+        <p class="pass-line"><span>Shadow</span><span>Deferred</span><span>Bloom</span><span>Shafts</span></p>
+        <p class="muted">Same scene on Vulkan and on D3D12. The pictures here are the Vulkan frames.</p>
       </div>
     </section>
 
     <section class="section">
       <div class="wrap split">
         <article class="panel prose">
-          <h2>Couch co-op</h2>
-          <p>New campaign opens a lobby. Extra pads sit down. You run the <strong>same 30-level war</strong> in local split-screen — one to four players, no online required.</p>
-          <p class="muted">Drop in before you start. Same biomes. Double up on guns.</p>
+          <h2>Solo</h2>
+          <p>One campaign. Woods, then the city at night, then the mountains, then the crater. Two acts, one game.</p>
+          <p>You carry the gun, the city flashlight, and the score. The run ends when you fall and there is no checkpoint.</p>
         </article>
         <article class="panel prose">
-          <h2>The war</h2>
-          <p>A shard of Centra hits Earth. Centroids pour out. You stop the source — then they come back harder, through the mountains and into the crater.</p>
-          <p class="muted">One game. Two acts. No sequel SKU.</p>
+          <h2>On the couch</h2>
+          <p>The same thirty levels, on one machine, with one to four players. Extra pads join in the lobby and can drop out before you start. The screen divides with the party. Each seat is a player, not a tag-along.</p>
+          <div class="pane-row">
+            <div class="pane-guide g2" aria-hidden="true"><span></span><span></span></div>
+            <p class="muted">Two players. Each half is a viewport.</p>
+          </div>
+          <div class="pane-row">
+            <div class="pane-guide g4" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+            <p class="muted">Four players. One score, one save.</p>
+          </div>
+          <p>In a mini-boss pit the chain guns are shared: one rider each, and anyone still outside is brought in before the fight starts. On city night every living seat has a flashlight. A seat can die and come back beside someone still up. The run ends only when the last living seat falls.</p>
+          <p class="muted">This is the couch. There is no online play.</p>
         </article>
       </div>
     </section>
@@ -106,13 +164,16 @@
         <ul class="fact-list">
           <li><span>Genre</span> Side-scrolling platformer-shooter</li>
           <li><span>Campaign</span> 30 levels · woods, city night, mountains, crater</li>
-          <li><span>Play</span> Solo or local split-screen, 1–4 players</li>
-          <li><span>Fantasy</span> Find a gun. Chunk some grubs.</li>
+          <li><span>Solo</span> Your gun, your flashlight, your score</li>
+          <li><span>Co-op</span> Local split-screen, 1–4 players, one machine</li>
+          <li><span>Online</span> Not in this game</li>
+          <li><span>Drawn on</span> Vulkan and D3D12, one scene</li>
           <li><span>Platforms</span> Windows and Linux</li>
           <li><span>Status</span> In development</li>
           <li><span>Created by</span> Jack McGowen · SharpWing Studio</li>
-          <li><span>Music</span> Keenan Franklin · Ozzed</li>
+          <li><span>Music</span> Jack McGowen · Keenan Franklin · Ozzed</li>
         </ul>
+        <p class="later muted">A playable build comes later. Nothing to download yet.</p>
         <p class="muted" style="margin-top: 1.25rem;">Press materials live on the <a href="press.html">press page</a>.</p>
       </div>
     </section>
