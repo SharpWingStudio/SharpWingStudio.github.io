@@ -86,7 +86,8 @@ Change the HTML in this folder, commit, push. GitHub Pages updates in a minute o
 | File | Page |
 |------|------|
 | `index.html` | Home |
-| `centroid.html` | Game |
+| `centroid.html` | Centroid |
+| `space-pace.html` | Space Pace |
 | `about.html` | Studio |
 | `press.html` | Press kit |
 | `contact.html` | Contact |
