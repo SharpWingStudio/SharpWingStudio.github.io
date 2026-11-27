@@ -739,3 +739,46 @@ h3 {
     animation: none;
   }
 }
+
+/* Games list / ship table */
+
+.games-list {
+  display: grid;
+  gap: 2rem;
+}
+
+.ship-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+}
+
+.ship-table th,
+.ship-table td {
+  text-align: left;
+  padding: 0.7rem 0.9rem;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.95rem;
+}
+
+.ship-table th {
+  font-family: var(--cond);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  color: var(--muted);
+  background: var(--bg-raise);
+}
+
+.ship-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.ship-table td:first-child {
+  font-family: var(--cond);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--amber);
+  font-weight: 600;
+}
